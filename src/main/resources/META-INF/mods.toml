@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU Lesser General Public License version 2.1 (LGPLv2.1)"
+
+[[mods]]
+modId="simply_teleport_to_other"
+version="1.0.0"
+displayName="Simply Teleport To Other"
+credits="Azureddraig"
+displayURL="https://discord.gg/GTgx6tYjg2"
+authors="Azureddraig"
+
+[[dependencies.simply_teleport_to_other]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.simply_teleport_to_other]]
+    modId="simply_home"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
